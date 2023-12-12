@@ -6,7 +6,8 @@ public class Btn : MonoBehaviour
 {
     public GameObject buttonCanvas;
     public GameObject playerStatus;
-
+    public GameObject _inventory;
+   
     public void OnClickStatus()
     {
         FalseButtonCanvas();
@@ -16,6 +17,8 @@ public class Btn : MonoBehaviour
     public void OnClickIventory()
     {
         FalseButtonCanvas();
+        _inventory.SetActive(true);
+
     }
 
     private void FalseButtonCanvas()
@@ -23,4 +26,10 @@ public class Btn : MonoBehaviour
         buttonCanvas.SetActive(false);
     }
 
+    public void OnClickReturn()
+    {
+        buttonCanvas.SetActive(true);
+        playerStatus.SetActive(false);
+        _inventory.SetActive(false);
+    }
 }
