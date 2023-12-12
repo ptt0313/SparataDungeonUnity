@@ -579,7 +579,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1370617865918043221, guid: 251bcd90682cc9e4687f2a6e621950c3, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 600
+      value: 650
       objectReference: {fileID: 0}
     - target: {fileID: 1370617865918043221, guid: 251bcd90682cc9e4687f2a6e621950c3, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -901,6 +901,10 @@ PrefabInstance:
     - target: {fileID: 6649074377940551395, guid: 61b9e30ed0441b0498ba4c472f393fd6, type: 3}
       propertyPath: m_FontData.m_FontSize
       value: 70
+      objectReference: {fileID: 0}
+    - target: {fileID: 8039273890530547180, guid: 61b9e30ed0441b0498ba4c472f393fd6, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8914234313970689156, guid: 61b9e30ed0441b0498ba4c472f393fd6, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
