@@ -12,7 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24af090e60cb51409a7676f3a67757f, type: 3}
   m_Name: NewPlayerStatus
   m_EditorClassIdentifier: 
-  Atk: 0
-  Def: 0
-  Hp: 0
-  cri: 0
+  atk: 35
+  def: 40
+  hp: 100
+  cri: 25
+  nickName: Chad
+  descript: "\uC5F0\uC2B5\uC6A9\uCE90\uB9AD\uD130"
+  exp: 500
+  userLv: 10
+  Money: 20000

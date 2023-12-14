@@ -1,0 +1,31 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UI;
+public class PopupEquip : MonoBehaviour
+{
+    public Text infotext;
+    public Button confirmBtn;
+    public void PopupSetting(ItemSlot slot)
+    {
+        if (slot.inputData.isEquiped)
+        {
+            infotext.text = "장착을 해제하시겠습니까?";
+            confirmBtn.onClick.RemoveAllListeners();
+            confirmBtn.onClick.AddListener(() =>
+            {  slot.inputData.isEquiped = false;
+               slot.ChangeEquip();
+            });
+            
+        }
+        else
+        {
+            infotext.text = "장착 하시겠습니까?";
+            confirmBtn.onClick.AddListener(() =>
+            {  slot.inputData.isEquiped = true;
+               slot.ChangeEquip();
+            });
+
+        }
+    }
+}

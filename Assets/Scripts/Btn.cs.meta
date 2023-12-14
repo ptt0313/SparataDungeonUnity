@@ -4,8 +4,9 @@ MonoImporter:
   externalObjects: {}
   serializedVersion: 2
   defaultReferences:
-  - buttonCanvas: {instanceID: 0}
-  - playerStatus: {instanceID: 0}
+  - buttonCanvas: {fileID: 200561315009327600, guid: 61b9e30ed0441b0498ba4c472f393fd6, type: 3}
+  - playerStatus: {fileID: 1482896476415034184, guid: 251bcd90682cc9e4687f2a6e621950c3, type: 3}
+  - _inventory: {fileID: 7267995272939126996, guid: afddf830ff0040c4898461fbd014527a, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
